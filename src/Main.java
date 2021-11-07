@@ -34,6 +34,18 @@ public class Main {public static void main(String[] args) {
     String userInputSurname = skaner.nextLine();
     System.out.println("Witaj" + userInputName + userInputSurname + "!");
 
+    int number = 3;
+    int number2;
+    System.out.println(number++);
+    System.out.println(++number);
+    System.out.println(number);
+    number2 = number++;
+    System.out.println(++number2);
+    number2 = ++number;
+    System.out.println(number2);
+    System.out.println(++number2);
+
+
     }
 
 }
