@@ -46,6 +46,11 @@ public class Main {public static void main(String[] args) {
     System.out.println(++number2);
 
 
+    String[] nameTable = new String[4];
+    String[] nameTableBio = {"Kasia", "Tomasz", "Joanna", "Anna"};
+    for(int i=0; i < nameTableBio.length; i++){
+        System.out.println(nameTableBio[i]);
+    }
     }
 
 }
