@@ -28,8 +28,11 @@ public class Main {public static void main(String[] args) {
 
         }
     Scanner skaner = new Scanner(System.in);
-    String userInput = skaner.nextLine();
-    System.out.println(userInput);
+    System.out.println("Wpisz swoje imie");
+    String userInputName = skaner.nextLine();
+    System.out.println("Wpisz swoj nazwisko");
+    String userInputSurname = skaner.nextLine();
+    System.out.println("Witaj" + userInputName + userInputSurname + "!");
 
     }
 
